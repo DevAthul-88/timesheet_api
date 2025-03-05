@@ -23,4 +23,15 @@ class LoginRequest extends FormRequest
             'password' => ['required', 'string'],
         ];
     }
+
+    public function messages(): array
+    {
+        return [
+            'email.required' => 'The email address is required.',
+            'email.string' => 'The email address must be a valid string.',
+            'email.email' => 'Please provide a valid email address.',
+            'password.required' => 'The password is required.',
+            'password.string' => 'The password must be a valid string.',
+        ];
+    }
 }

@@ -38,8 +38,8 @@ Ensure you have the following installed before setting up the project:
 
 ### 1. Clone the Repository
 ```sh
-git clone <repository-url>
-cd <project-directory>
+git https://github.com/DevAthul-88/timesheet_api.git
+cd timesheet_api
 ```
 
 ### 2. Install Dependencies
