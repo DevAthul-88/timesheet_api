@@ -776,7 +776,6 @@ GET /api/timesheets?per_page=15&project_id=1&date_from=2024-01-01&date_to=2024-0
 
 ### Security Considerations
 - Authentication required for all endpoints
-- Role-based access control
 - Data privacy and scope restrictions
 - Audit logging for all timesheet modifications
 
